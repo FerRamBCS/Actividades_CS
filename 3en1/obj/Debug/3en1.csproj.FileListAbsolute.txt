@@ -1,0 +1,7 @@
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\bin\Debug\3en1.exe.config
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\bin\Debug\3en1.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\bin\Debug\3en1.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\obj\Debug\3en1.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\obj\Debug\3en1.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\obj\Debug\3en1.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\3en1\obj\Debug\3en1.pdb
