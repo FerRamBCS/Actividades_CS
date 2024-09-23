@@ -18,7 +18,8 @@ namespace _3en1
                 Console.WriteLine("1. Operaciones (suma, resta, multiplicación, división)");
                 Console.WriteLine("2. Ordenar tres números de mayor a menor");
                 Console.WriteLine("3. Buscar números primos");
-                Console.WriteLine("4. Salir");
+                Console.WriteLine("4. Determinar el mayor de una lista");
+                Console.WriteLine("5. Salir");
                 int seleccion = Convert.ToInt32(Console.ReadLine());
 
                 switch (seleccion)
@@ -33,6 +34,9 @@ namespace _3en1
                         BuscarNumerosPrimos();
                         break;
                     case 4:
+                        mayorLista();
+                        break;
+                    case 5:
                         continuar = false;
                         Console.WriteLine("Saliendo del programa...");
                         break;
@@ -199,6 +203,60 @@ namespace _3en1
                 }
             }
             return true;
+        }
+        static void mayorLista()
+        {
+            bool continuar = true;
+            List<int> lista = new List<int>();
+            while (continuar)
+            {
+                Console.WriteLine("Ingresa un numero: ");
+                int numero = Convert.ToInt32(Console.ReadLine());
+                lista.Add(numero);
+
+                Console.WriteLine("¿Quieres agregar otro numero?");
+
+                if (continuar)
+                {
+                    Console.WriteLine("\n¿Deseas realizar otra operación? (S/N)");
+                    char respuesta = Char.ToUpper(Console.ReadKey().KeyChar);
+
+                    if (respuesta != 'S')
+                    {
+                        continuar = false;
+                        Console.WriteLine("\nSaliendo del programa...");
+                    }
+                    else
+                    {
+                        Console.Clear(); // Limpia la consola para empezar de nuevo
+                    }
+                }
+            }
+            bool esMayor = false;
+            for (int i  = 0; i < lista.Count; i++)//For 1
+            {
+                int n = lista[i];//Obtiene numero de la lista
+                for (int j = 0; j < lista.Count; j++)//For 2
+                {
+                    int m = lista[j]; //obtiene numero de FOR 2
+                    if (n < m)
+                    {
+                        break;
+                    }else if (n == m || n < j)
+                    {
+                        if (j == lista.Count - 1)
+                        {
+                            esMayor = true;
+                        }
+                    }
+                    if (!esMayor)
+                    {
+                        break;
+                    }
+                }
+
+            }
+
         }
     }
 }
