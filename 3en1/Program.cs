@@ -18,7 +18,7 @@ namespace _3en1
                 Console.WriteLine("1. Operaciones (suma, resta, multiplicación, división)");
                 Console.WriteLine("2. Ordenar tres números de mayor a menor");
                 Console.WriteLine("3. Buscar números primos");
-                Console.WriteLine("4. Determinar el mayor de una lista");
+                Console.WriteLine("4. Determinar el mayor y menor de una lista");
                 Console.WriteLine("5. Salir");
                 int seleccion = Convert.ToInt32(Console.ReadLine());
 
@@ -34,7 +34,7 @@ namespace _3en1
                         BuscarNumerosPrimos();
                         break;
                     case 4:
-                        mayorLista();
+                        determinarMayorYMenor();
                         break;
                     case 5:
                         continuar = false;
@@ -204,59 +204,74 @@ namespace _3en1
             }
             return true;
         }
-        static void mayorLista()
+
+        // Método para determinar el número mayor de una lista
+        static void determinarMayorYMenor()
         {
             bool continuar = true;
             List<int> lista = new List<int>();
+
+            // Solicitar los números al usuario
             while (continuar)
             {
-                Console.WriteLine("Ingresa un numero: ");
+                Console.WriteLine("Ingresa un número: ");
                 int numero = Convert.ToInt32(Console.ReadLine());
                 lista.Add(numero);
 
-                Console.WriteLine("¿Quieres agregar otro numero?");
+                Console.WriteLine("¿Quieres agregar otro número? (S/N)");
+                char respuesta = Char.ToUpper(Console.ReadKey().KeyChar);
+                Console.WriteLine(); // Salto de línea
 
-                if (continuar)
+                if (respuesta != 'S')
                 {
-                    Console.WriteLine("\n¿Deseas realizar otra operación? (S/N)");
-                    char respuesta = Char.ToUpper(Console.ReadKey().KeyChar);
-
-                    if (respuesta != 'S')
-                    {
-                        continuar = false;
-                        Console.WriteLine("\nSaliendo del programa...");
-                    }
-                    else
-                    {
-                        Console.Clear(); // Limpia la consola para empezar de nuevo
-                    }
+                    continuar = false;
                 }
             }
-            bool esMayor = false;
-            for (int i  = 0; i < lista.Count; i++)//For 1
+
+            // Inicializar las variables para el número mayor y menor
+            int mayorNumero = lista[0];
+            int menorNumero = lista[0];
+
+            // Encontrar el mayor y menor número
+            for (int i = 0; i < lista.Count; i++) // FOR 1
             {
-                int n = lista[i];//Obtiene numero de la lista
-                for (int j = 0; j < lista.Count; j++)//For 2
+                int n = lista[i];
+                bool esMayor = true;
+                bool esMenor = true;
+
+                for (int j = 0; j < lista.Count; j++) // FOR 2
                 {
-                    int m = lista[j]; //obtiene numero de FOR 2
-                    if (n < m)
+                    if (i != j)
                     {
-                        break;
-                    }else if (n == m || n < j)
-                    {
-                        if (j == lista.Count - 1)
+                        if (n < lista[j])
                         {
-                            esMayor = true;
+                            esMayor = false;
+                        }
+                        if (n > lista[j])
+                        {
+                            esMenor = false;
+                        }
+                        if (!esMayor && !esMenor)
+                        {
+                            break;
                         }
                     }
-                    if (!esMayor)
-                    {
-                        break;
-                    }
                 }
 
+                if (esMayor)
+                {
+                    mayorNumero = n;
+                }
+                if (esMenor)
+                {
+                    menorNumero = n;
+                }
             }
 
+            // Mostrar el número mayor y menor
+            Console.WriteLine($"El número mayor de la lista es: {mayorNumero}");
+            Console.WriteLine($"El número menor de la lista es: {menorNumero}");
         }
+
     }
 }
