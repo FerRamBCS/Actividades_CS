@@ -1,0 +1,7 @@
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\bin\Debug\tiendaPOO.exe.config
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\bin\Debug\tiendaPOO.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\bin\Debug\tiendaPOO.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\obj\Debug\tiendaPOO.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\obj\Debug\tiendaPOO.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\obj\Debug\tiendaPOO.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\tiendaPOO\obj\Debug\tiendaPOO.pdb

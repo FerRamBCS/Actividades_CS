@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace tiendaPOO
 {
-    internal class Program
+    class Caja
     {
-        static void Main(string[] args)
+        //Mostrar la lista de productos y el total
+        public void Cobrar(Carrito carrito)
         {
+
         }
+
+        //creaar metodo pagar
     }
 }
