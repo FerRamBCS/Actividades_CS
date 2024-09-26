@@ -10,6 +10,18 @@ namespace Tienda2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Selecciona el articulo: ");
+            Catalogo.mostrarCatalogo();
+
+            int artId = Convert.ToInt32(Console.ReadLine());
+
+            Articulo articuloSeleccionado = Catalogo.buscarArticuloId(artId);
+            /*
+             TAREA
+            Agregar el articulo al carrito
+             */
+
+            Console.ReadLine();
         }
     }
 }

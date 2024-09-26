@@ -1,0 +1,7 @@
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\bin\Debug\Tienda2.exe.config
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\bin\Debug\Tienda2.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\bin\Debug\Tienda2.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\obj\Debug\Tienda2.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\obj\Debug\Tienda2.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\obj\Debug\Tienda2.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Tienda2\obj\Debug\Tienda2.pdb
