@@ -22,19 +22,26 @@ namespace Tienda2
                 new Articulo { Nombre = "Huevo", Precio = 65f, ID = 5 },
             };
         }
+
         public static void mostrarCatalogo()
         {
             llenarCatalogo();
+            Console.WriteLine("\n********* Catálogo de Productos *********");
+            Console.WriteLine($"{"ID",-5} {"Nombre",-20} {"Precio",-10}");
+            Console.WriteLine("-----------------------------------------");
+
             foreach (Articulo articulo in Inventario)
             {
-                Console.Write($"{articulo.ID} - {articulo.Nombre} - {articulo.Precio}\n");
+                Console.WriteLine($"{articulo.ID,-5} {articulo.Nombre,-20} ${articulo.Precio,8:F2}");
             }
+
+            Console.WriteLine("-----------------------------------------");
+            Console.WriteLine($"Fecha: {DateTime.Now: dd/MM/yyyy hh:mm:ss tt}");
         }
+
         public static Articulo buscarArticuloId(int artId)
         {
-            return 
-                Inventario.Find(x => x.ID.Equals(artId));
-
+            return Inventario.Find(x => x.ID.Equals(artId));
         }
     }
 }
