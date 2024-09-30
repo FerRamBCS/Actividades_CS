@@ -19,7 +19,7 @@ namespace Tienda2
 
                 Console.WriteLine("\n--------------------------------------");
                 Console.WriteLine("¡Bienvenido! Nuevo cliente, ingrese sus productos.");
-                Console.WriteLine("--------------------------------------");
+                Console.WriteLine("--------------------------------------");    
 
                 while (continuar)
                 {
