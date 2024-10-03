@@ -10,9 +10,16 @@ using System.Windows.Forms;
 
 namespace Calificaciones
 {
-    public partial class Form1 : Form
+    /*
+        TAREA 
+        En la pantalla de alumnos crear el metodo para cargar alumnos usando Central
+        En la pantalla de materias crear el diseño de la pantalla con sus botones y cualquier elemento
+        En  la pantalla de materias crear formulario para dar de alta materias y usar central
+        En la pantalla de materia crear los metodos que sean necesarios
+     */
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -21,7 +28,7 @@ namespace Calificaciones
         private void btnAlumno_Click(object sender, EventArgs e)
         {
 
-            Alumno _alumno = new Alumno();
+            FormAlumno _alumno = new FormAlumno();
             _alumno.Show();
 
         }

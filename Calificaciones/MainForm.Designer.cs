@@ -1,6 +1,6 @@
 ﻿namespace Calificaciones
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.

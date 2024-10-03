@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Calificaciones
 {
-    public partial class Alumno : Form
+    public partial class FormAlumno : Form
     {
-        public Alumno()
+        public FormAlumno()
         {
             InitializeComponent();
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            RegistrarAlumno _registrarAlumno = new RegistrarAlumno();
+            _registrarAlumno.Show
         }
     }
 }

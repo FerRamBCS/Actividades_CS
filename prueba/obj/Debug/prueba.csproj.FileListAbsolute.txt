@@ -1,0 +1,7 @@
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\obj\Debug\prueba.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\bin\Debug\prueba.exe.config
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\bin\Debug\prueba.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\bin\Debug\prueba.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\obj\Debug\prueba.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\prueba\obj\Debug\prueba.pdb
