@@ -48,17 +48,18 @@
   <ItemGroup>
     <Compile Include="Central.cs" />
     <Compile Include="Entidades\Alumnos.cs" />
+    <Compile Include="Entidades\Materias.cs" />
+    <Compile Include="FormMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMateria.Designer.cs">
+      <DependentUpon>FormMateria.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Materia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Materia.Designer.cs">
-      <DependentUpon>Materia.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +75,17 @@
     <Compile Include="RegistrarAlumno.Designer.cs">
       <DependentUpon>RegistrarAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistrarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarMateria.Designer.cs">
+      <DependentUpon>RegistrarMateria.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FormAlumno.resx">
       <DependentUpon>FormAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMateria.resx">
+      <DependentUpon>FormMateria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -91,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrarAlumno.resx">
       <DependentUpon>RegistrarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarMateria.resx">
+      <DependentUpon>RegistrarMateria.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

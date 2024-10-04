@@ -20,7 +20,7 @@ namespace Calificaciones
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             RegistrarAlumno _registrarAlumno = new RegistrarAlumno();
-            _registrarAlumno.Show
+            _registrarAlumno.Show();
         }
     }
 }

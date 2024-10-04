@@ -35,7 +35,7 @@ namespace Calificaciones
 
         private void btnMateria_Click(object sender, EventArgs e)
         {
-            Materia _materia = new Materia();
+            FormMateria _materia = new FormMateria();
             _materia.Show();
         }
     }

@@ -13,5 +13,9 @@ namespace Calificaciones
         {
             
         }
+        public static void SubirMateria (Materias materia)
+        {
+
+        }
     }
 }

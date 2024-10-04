@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Calificaciones
 {
-    public partial class Materia : Form
+    public partial class FormMateria : Form
     {
-        public Materia()
+        public FormMateria()
         {
             InitializeComponent();
+        }
+
+        private void btnRmateria_Click(object sender, EventArgs e)
+        {
+            RegistrarMateria _registrarMateria = new RegistrarMateria();
+            _registrarMateria.Show();
         }
     }
 }

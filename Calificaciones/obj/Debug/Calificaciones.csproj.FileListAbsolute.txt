@@ -2,9 +2,13 @@ C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\Actividad
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\bin\Debug\Calificaciones.exe
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\bin\Debug\Calificaciones.pdb
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.csproj.AssemblyReference.cache
-C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.Form1.resources
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.Properties.Resources.resources
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.csproj.GenerateResource.cache
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.csproj.CoreCompileInputs.cache
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.exe
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.FormAlumno.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.FormMateria.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.MainForm.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.RegistrarAlumno.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\Calificaciones\obj\Debug\Calificaciones.RegistrarMateria.resources

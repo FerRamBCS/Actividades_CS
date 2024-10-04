@@ -87,9 +87,9 @@
             // 
             // btnSubir
             // 
-            this.btnSubir.Location = new System.Drawing.Point(203, 173);
+            this.btnSubir.Location = new System.Drawing.Point(272, 147);
             this.btnSubir.Name = "btnSubir";
-            this.btnSubir.Size = new System.Drawing.Size(75, 23);
+            this.btnSubir.Size = new System.Drawing.Size(90, 33);
             this.btnSubir.TabIndex = 6;
             this.btnSubir.Text = "Agregar";
             this.btnSubir.UseVisualStyleBackColor = true;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.lblApellido);
             this.Controls.Add(this.lblNombre);
             this.Name = "RegistrarAlumno";
-            this.Text = "RegistrarAlumno";
+            this.Text = "Registrar Alumno";
             this.ResumeLayout(false);
             this.PerformLayout();
 
