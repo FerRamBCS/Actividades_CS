@@ -27,7 +27,16 @@ namespace Calificaciones
                 Apellido = txtApellido.Text,
                 Matricula = txtMatricula.Text,
             };
-            Central.SubirAlumno(alumno);
+
+            Response resp = Central.SubirAlumno(alumno);
+            if (resp.Codigo == 1)
+            {
+                MessageBox.Show(resp.Mensaje, "Exito!");
+            }
+            else if (resp.Codigo == 2)
+            {
+                MessageBox.Show(resp.Mensaje, "Error!");
+            }
         }
     }
 }

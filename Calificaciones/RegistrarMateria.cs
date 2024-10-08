@@ -18,13 +18,6 @@ namespace Calificaciones
             InitializeComponent();
         }
 
-
-
-
-
-
-
-
         //
         private void lblDocenteEncargado_Click(object sender, EventArgs e)
         {
@@ -37,9 +30,16 @@ namespace Calificaciones
             { 
                 NombreM = txtMateria.Text,
                 ClaveM = txtClaveMateria.Text,
-                CalificacionM = (float)Convert.ToDecimal(txtCalificacion.Text),
             };
-            Central.SubirMateria(materia);
+            Response resp = Central.SubirMateria(materia);
+            if (resp.Codigo == 1)
+            {
+                MessageBox.Show(resp.Mensaje, "Éxito!");
+            }
+            else if (resp.Codigo == 2)
+            {
+                MessageBox.Show(resp.Mensaje, "Error!");
+            }
         }
     }
 }

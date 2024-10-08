@@ -10,7 +10,6 @@ namespace Calificaciones.Entidades
     {
         public string NombreM { get; set; }
         public string ClaveM { get; set; }
-        public float CalificacionM { get; set; }
 
     }
 }

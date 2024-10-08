@@ -22,5 +22,10 @@ namespace Calificaciones
             RegistrarMateria _registrarMateria = new RegistrarMateria();
             _registrarMateria.Show();
         }
+
+        private void FormMateria_Load(object sender, EventArgs e)
+        {
+            dgv_VistaMateria.DataSource = Central.CargarMaterias();
+        }
     }
 }
