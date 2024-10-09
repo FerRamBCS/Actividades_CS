@@ -10,14 +10,14 @@ namespace FUNDAMENTOS_POO.Abstractas
     {
         public int Lados {  get; set; }
         public int Longitud {  get; set; }
-        public override void CalcularArea()
-        {
-            Area = (int)(Lados * Math.Pow(Longitud, 2) / 4 * Math.Tan(Math.PI / Lados));
-        }
-
+        public int Apotema { get; set; }
         public override void CalcularPerimetro()
         {
             Perimetro = Lados * Longitud;
+        }
+        public override void CalcularArea()
+        {
+            Area = (Perimetro * Apotema) / 2;
         }
     }
 }

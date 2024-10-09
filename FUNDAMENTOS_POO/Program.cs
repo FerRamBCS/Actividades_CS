@@ -68,14 +68,16 @@ namespace FUNDAMENTOS_POO
             circulo.CalcularPerimetro();
             circulo.MuestraPerimetro();
 
+            Console.WriteLine("Poligono");
             Poligono poligono = new Poligono()
             {
                 Lados = 10,
-                Longitud = 10
+                Longitud = 10,
+                Apotema = 10
             };
+            poligono.CalcularPerimetro();
             poligono.CalcularArea();
             poligono.MuestraArea();
-            poligono.CalcularPerimetro();
             poligono.MuestraPerimetro();
 
             Console.ReadLine();
