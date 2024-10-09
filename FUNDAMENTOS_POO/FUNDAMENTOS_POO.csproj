@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractas\Circulo.cs" />
+    <Compile Include="Abstractas\Cuadrado.cs" />
+    <Compile Include="Abstractas\Figura.cs" />
+    <Compile Include="Abstractas\Poligono.cs" />
+    <Compile Include="Abstractas\Rectangulo.cs" />
+    <Compile Include="Abstractas\Triangulo.cs" />
     <Compile Include="Interfaces\Admin.cs" />
     <Compile Include="Interfaces\Clase.cs" />
     <Compile Include="Interfaces\iUSUARIO.cs" />
