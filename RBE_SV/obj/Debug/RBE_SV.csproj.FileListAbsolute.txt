@@ -1,0 +1,11 @@
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\bin\Debug\RBE_SV.exe.config
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\bin\Debug\RBE_SV.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\bin\Debug\RBE_SV.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.csproj.AssemblyReference.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FRM_login.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.Properties.Resources.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.csproj.GenerateResource.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.exe
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.pdb
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FRM_main.resources
