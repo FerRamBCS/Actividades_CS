@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RBE_SV
 {
-    public partial class FRM_main : Form
+    public partial class FormMain : Form
     {
-        public FRM_main()
+        public FormMain()
         {
             InitializeComponent();
         }

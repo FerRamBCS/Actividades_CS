@@ -1,6 +1,6 @@
 ﻿namespace RBE_SV
 {
-    partial class FRM_main
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_main));
             this.SuspendLayout();
             // 
-            // FRM_main
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FRM_main";
-            this.Text = "Menu";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FormMain";
+            this.Text = "FormMain";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
