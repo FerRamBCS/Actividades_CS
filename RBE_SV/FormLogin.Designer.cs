@@ -99,6 +99,7 @@
             this.Txt_Usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Txt_Usuario.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Usuario.Location = new System.Drawing.Point(289, 139);
+            this.Txt_Usuario.MaxLength = 15;
             this.Txt_Usuario.Multiline = true;
             this.Txt_Usuario.Name = "Txt_Usuario";
             this.Txt_Usuario.Size = new System.Drawing.Size(312, 30);
@@ -134,17 +135,23 @@
             this.Txt_Contra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Txt_Contra.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Contra.Location = new System.Drawing.Point(289, 204);
+            this.Txt_Contra.MaxLength = 15;
             this.Txt_Contra.Multiline = true;
             this.Txt_Contra.Name = "Txt_Contra";
+            this.Txt_Contra.PasswordChar = '*';
             this.Txt_Contra.Size = new System.Drawing.Size(312, 30);
             this.Txt_Contra.TabIndex = 5;
+            this.Txt_Contra.UseSystemPasswordChar = true;
             // 
             // Btn_inicio
             // 
-            this.Btn_inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_inicio.Location = new System.Drawing.Point(357, 257);
+            this.Btn_inicio.Font = new System.Drawing.Font("Bahnschrift", 10.8F);
+            this.Btn_inicio.Image = ((System.Drawing.Image)(resources.GetObject("Btn_inicio.Image")));
+            this.Btn_inicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_inicio.Location = new System.Drawing.Point(330, 260);
             this.Btn_inicio.Name = "Btn_inicio";
-            this.Btn_inicio.Size = new System.Drawing.Size(162, 33);
+            this.Btn_inicio.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.Btn_inicio.Size = new System.Drawing.Size(220, 33);
             this.Btn_inicio.TabIndex = 7;
             this.Btn_inicio.Text = "Iniciar Sesión";
             this.Btn_inicio.UseVisualStyleBackColor = true;

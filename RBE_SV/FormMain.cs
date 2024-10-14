@@ -16,5 +16,15 @@ namespace RBE_SV
         {
             InitializeComponent();
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void T_Menu_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
