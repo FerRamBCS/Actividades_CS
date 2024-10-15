@@ -100,9 +100,8 @@
             this.Txt_Usuario.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Usuario.Location = new System.Drawing.Point(289, 139);
             this.Txt_Usuario.MaxLength = 15;
-            this.Txt_Usuario.Multiline = true;
             this.Txt_Usuario.Name = "Txt_Usuario";
-            this.Txt_Usuario.Size = new System.Drawing.Size(312, 30);
+            this.Txt_Usuario.Size = new System.Drawing.Size(312, 28);
             this.Txt_Usuario.TabIndex = 3;
             // 
             // Lbl_Usuario
@@ -136,10 +135,8 @@
             this.Txt_Contra.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Contra.Location = new System.Drawing.Point(289, 204);
             this.Txt_Contra.MaxLength = 15;
-            this.Txt_Contra.Multiline = true;
             this.Txt_Contra.Name = "Txt_Contra";
-            this.Txt_Contra.PasswordChar = '*';
-            this.Txt_Contra.Size = new System.Drawing.Size(312, 30);
+            this.Txt_Contra.Size = new System.Drawing.Size(312, 28);
             this.Txt_Contra.TabIndex = 5;
             this.Txt_Contra.UseSystemPasswordChar = true;
             // 
