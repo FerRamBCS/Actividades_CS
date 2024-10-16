@@ -232,6 +232,18 @@
         eqq/a/bd2C2ssGvwN02v6w/f8MhKD34m9wAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="Btn_Pedidos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAXpJREFUSEut
+        VNGxwyAMC5t0lI7STTpKR+koHSXPFgLLwWnz8XTnGoRsAw7dajT6jpi1w8pVnEWRv5z0l/5yIuBcHSuV
+        RjmMSSzaKligsXni+BGs0NjsOjh5m+2/re2m3y0ouLZ9zHd8KaABMYYxKce6Jry573CRB2TtEqefKcaj
+        2IpD7EG4ZCYWfsSJtaf5BVjU3Sl0phobH5LDvCd3sw4ExL1P1EmnfmD0bOBl5huNxhOHAkV6pQijGDcX
+        b2Yf8lYsglyUrkjH6gJ6RUl/Az9OxgUKDSBCnpH5SFS8j5QvCG+OPzq/Q/cPs4QogdFMhgIwvpXqBCGa
+        lr8IQxTY7tDrrqsTEEp6c7xZzxGw7C6bfzl+71MvNmGTGTzgRQY3bTkljoSf23kBrG9vBttLBPFigPdi
+        aBT9D7K5HqC+ZT18n3hDWVn/4HDXBEfUi6Zb31DqmQBRD3N9Z0WDC/imvuuRlhsLKJHHixQo2Fr4P1hz
+        X6lGDdyZfuHb9geO7KqN+3HRjwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="T_Menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

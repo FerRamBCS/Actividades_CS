@@ -9,3 +9,9 @@ C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\Actividad
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.exe
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.pdb
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormMain.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormBienvenida.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormConError.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormConPrecios.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormInventario.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormPedidos.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormVentas.resources
