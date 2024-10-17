@@ -51,6 +51,8 @@
             this.FLP_Main = new System.Windows.Forms.FlowLayoutPanel();
             this.P_Pedidos = new System.Windows.Forms.Panel();
             this.Btn_Pedidos = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Btn_Usuarios = new System.Windows.Forms.Button();
             this.T_Menu = new System.Windows.Forms.Timer(this.components);
             this.T_SB = new System.Windows.Forms.Timer(this.components);
             this.P_UpBar.SuspendLayout();
@@ -65,6 +67,7 @@
             this.P_Home.SuspendLayout();
             this.FLP_Main.SuspendLayout();
             this.P_Pedidos.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // P_UpBar
@@ -101,7 +104,8 @@
             // P_Logout
             // 
             this.P_Logout.Controls.Add(this.Btn_Logout);
-            this.P_Logout.Location = new System.Drawing.Point(3, 355);
+            this.P_Logout.Location = new System.Drawing.Point(0, 421);
+            this.P_Logout.Margin = new System.Windows.Forms.Padding(0);
             this.P_Logout.Name = "P_Logout";
             this.P_Logout.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
             this.P_Logout.Size = new System.Drawing.Size(330, 63);
@@ -230,6 +234,7 @@
             this.Btn_Ventas.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Ventas.Image")));
             this.Btn_Ventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_Ventas.Location = new System.Drawing.Point(-16, -7);
+            this.Btn_Ventas.Margin = new System.Windows.Forms.Padding(0);
             this.Btn_Ventas.Name = "Btn_Ventas";
             this.Btn_Ventas.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.Btn_Ventas.Size = new System.Drawing.Size(356, 85);
@@ -255,6 +260,7 @@
             this.Btn_Inventario.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Inventario.Image")));
             this.Btn_Inventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_Inventario.Location = new System.Drawing.Point(-16, -7);
+            this.Btn_Inventario.Margin = new System.Windows.Forms.Padding(0);
             this.Btn_Inventario.Name = "Btn_Inventario";
             this.Btn_Inventario.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.Btn_Inventario.Size = new System.Drawing.Size(356, 85);
@@ -280,6 +286,7 @@
             this.Btn_Home.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Home.Image")));
             this.Btn_Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_Home.Location = new System.Drawing.Point(-16, -7);
+            this.Btn_Home.Margin = new System.Windows.Forms.Padding(0);
             this.Btn_Home.Name = "Btn_Home";
             this.Btn_Home.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.Btn_Home.Size = new System.Drawing.Size(356, 85);
@@ -297,6 +304,7 @@
             this.FLP_Main.Controls.Add(this.P_Inventario);
             this.FLP_Main.Controls.Add(this.P_Pedidos);
             this.FLP_Main.Controls.Add(this.FLP_MConntainer);
+            this.FLP_Main.Controls.Add(this.panel1);
             this.FLP_Main.Controls.Add(this.P_Logout);
             this.FLP_Main.Dock = System.Windows.Forms.DockStyle.Left;
             this.FLP_Main.Location = new System.Drawing.Point(0, 43);
@@ -332,6 +340,32 @@
             this.Btn_Pedidos.UseVisualStyleBackColor = false;
             this.Btn_Pedidos.Click += new System.EventHandler(this.Btn_Pedidos_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.Btn_Usuarios);
+            this.panel1.Location = new System.Drawing.Point(3, 355);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
+            this.panel1.Size = new System.Drawing.Size(330, 63);
+            this.panel1.TabIndex = 6;
+            // 
+            // Btn_Usuarios
+            // 
+            this.Btn_Usuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(165)))), ((int)(((byte)(177)))), ((int)(((byte)(177)))));
+            this.Btn_Usuarios.Font = new System.Drawing.Font("Bahnschrift", 9F);
+            this.Btn_Usuarios.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Usuarios.Image")));
+            this.Btn_Usuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Usuarios.Location = new System.Drawing.Point(-16, -7);
+            this.Btn_Usuarios.Margin = new System.Windows.Forms.Padding(0);
+            this.Btn_Usuarios.Name = "Btn_Usuarios";
+            this.Btn_Usuarios.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.Btn_Usuarios.Size = new System.Drawing.Size(356, 85);
+            this.Btn_Usuarios.TabIndex = 0;
+            this.Btn_Usuarios.Text = "           Usuarios";
+            this.Btn_Usuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Usuarios.UseVisualStyleBackColor = false;
+            this.Btn_Usuarios.Click += new System.EventHandler(this.Btn_Usuarios_Click);
+            // 
             // T_Menu
             // 
             this.T_Menu.Interval = 10;
@@ -351,8 +385,11 @@
             this.Controls.Add(this.P_UpBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormMain";
             this.Text = "Menu principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.P_UpBar.ResumeLayout(false);
             this.P_UpBar.PerformLayout();
@@ -367,6 +404,7 @@
             this.P_Home.ResumeLayout(false);
             this.FLP_Main.ResumeLayout(false);
             this.P_Pedidos.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -396,5 +434,7 @@
         private System.Windows.Forms.Timer T_SB;
         private System.Windows.Forms.Panel P_Pedidos;
         private System.Windows.Forms.Button Btn_Pedidos;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button Btn_Usuarios;
     }
 }

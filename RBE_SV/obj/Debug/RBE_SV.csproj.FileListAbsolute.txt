@@ -15,3 +15,4 @@ C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\Actividad
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormInventario.resources
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormPedidos.resources
 C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormVentas.resources
+C:\Users\ASUS TUF\OneDrive\Escritorio\PROGRAMACION ORIENTADA A OBJETOS\ActividadesCS\RBE_SV\obj\Debug\RBE_SV.FormUsuario.resources

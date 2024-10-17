@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace RBE_SV
 {
-    public partial class FormBienvenida : Form
+    public partial class FormUsuario : Form
     {
-        public FormBienvenida()
+        public FormUsuario()
         {
             InitializeComponent();
-
         }
 
-        private void FormBienvenida_Load(object sender, EventArgs e)
+        private void FormUsuario_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
-             
-            Lbl_Bienvenida.Text ="Bienvenido, a tu sistema de ventas.";
-
         }
     }
 }

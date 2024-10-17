@@ -19,6 +19,7 @@ namespace RBE_SV
         FormPedidos formPedidos;
         FormConError formConError;
         FormConPrecios formConPrecios;
+        FormUsuario formUsuario;
 
         public FormMain()
         {
@@ -87,6 +88,7 @@ namespace RBE_SV
                     FLP_Main.Width = MinWidthSidebar;
                     sidebarExpandida = false;
                     T_SB.Stop();
+                    
                 }
             }
             else
@@ -154,9 +156,9 @@ namespace RBE_SV
                 formVentas.Dock = DockStyle.Fill;
                 formVentas.Show();
             }
-            else 
-            { 
-                formVentas.Activate(); 
+            else
+            {
+                formVentas.Activate();
             }
         }
 
@@ -171,8 +173,8 @@ namespace RBE_SV
             {
                 formInventario = new FormInventario();
                 formInventario.FormClosed += FormInventario_FormClosed;
-                formInventario.MdiParent= this;
-                formVentas.Dock = DockStyle.Fill;
+                formInventario.MdiParent = this;
+                formInventario.Dock = DockStyle.Fill;
                 formInventario.Show();
             }
             else
@@ -188,7 +190,7 @@ namespace RBE_SV
 
         private void Btn_Pedidos_Click(object sender, EventArgs e)
         {
-            if(formPedidos == null)
+            if (formPedidos == null)
             {
                 formPedidos = new FormPedidos();
                 formPedidos.FormClosed += FormPedidos_FormClosed;
@@ -196,9 +198,9 @@ namespace RBE_SV
                 formPedidos.Dock = DockStyle.Fill;
                 formPedidos.Show();
             }
-            else 
+            else
             {
-                formPedidos.Activate(); 
+                formPedidos.Activate();
             }
         }
 
@@ -219,7 +221,7 @@ namespace RBE_SV
             }
             else
             {
-                formConPrecios.Activate(); 
+                formConPrecios.Activate();
             }
         }
 
@@ -247,6 +249,27 @@ namespace RBE_SV
         private void FormConError_FormClosed(object sender, FormClosedEventArgs e)
         {
             formConError.Show();
+        }
+
+        private void Btn_Usuarios_Click(object sender, EventArgs e)
+        {
+            if (formUsuario == null)
+            {
+                formUsuario = new FormUsuario();
+                formUsuario.FormClosed += FormUsuario_FormClosed;
+                formUsuario.MdiParent= this;
+                formUsuario.Dock = DockStyle.Fill;
+                formUsuario.Show();
+            }
+            else 
+            {
+                formUsuario.Activate(); 
+            }
+        }
+
+        private void FormUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formUsuario.Show();
         }
     }
 }
